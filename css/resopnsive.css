@@ -1,0 +1,413 @@
+
+@media(max-width: 768px) {
+  header{
+    padding-bottom: 10px;
+  }
+header .container{
+  padding-bottom: 10px;
+}
+  .navbar-toggler{
+    cursor: pointer;
+    background-color: #F2745F;
+    width: 42px;
+    height: 42px;
+    padding:0px 10px;
+    margin-top: -7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    line-height: 42px;
+   
+  }
+  .navbar-toggler:before{
+    content: '\f0c9';
+    font-family: fontAwesome;
+    line-height: 40px;
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+
+  }
+  .navbar-toggler.active:before{
+    content: '\f00d';
+  }
+  nav{
+    display: none;
+  }
+  nav.active{
+    display: block;
+    width: 100%;
+    transition: ease-in-out 1s;
+
+  }
+  nav.active ul{
+    background-color: #F2F5FC;
+    margin: 0em;
+    padding: 0;
+    transition: ease-in-out 1s;
+    display: block;
+    list-style: none;
+  }
+  nav.active ul li{
+
+    border-bottom: 1px solid #D8DEED;
+    padding: 25px 35px 25px 35px;
+    display: block;
+  } 
+  nav.activeul li a{
+      transition: ease-in-out 1s;
+    display: block;
+    color: #363E55;
+    text-decoration: none;
+    font-size: 14px;
+  } 
+  
+  }
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 987px) {
+  .banner p{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media only screen and (max-width: 987px) {
+  .ak {
+    padding: 0;
+    margin: 0px;
+    width: 100%;
+      }
+  .ak img{
+padding: 0;
+padding-left: 80px;
+padding-right: 80px;
+margin: 0px;
+width: 100%;
+height: 280px;
+  }
+}
+@media only screen and (max-width: 987px) {
+  .bk {
+    padding: 0;
+    margin: 0px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+      }
+     .bk .contact-content-middle-image{
+
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+
+      }
+      .bk .contact-conent-button{
+        margin: 20px 44px;
+          }
+}
+@media only screen and (max-width: 987px) {
+  .ck {
+    padding: 0;
+    margin: 0px;
+    width: 100%;
+
+  }
+  .ck img{
+    padding: 0;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 0px;
+    width: 100%;
+    height: 280px;
+      }
+}
+@media only screen and (max-width: 987px) {
+  .booktableleftimage{
+    position: relative;
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0px;
+    width: 100%;
+    overflow: hidden;
+    border: none;
+  }
+}
+@media only screen and (max-width: 987px) {
+  .selectdaycolm{
+    position: relative;
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0px;
+    width: 100%;
+    overflow: hidden;
+    border: none;
+  }
+  .selectday{
+
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 987px) {
+  .selecthourcolm{
+    position: relative;
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .selecthour{
+    padding: 0;
+    margin: 0px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 987px) {
+  .namecolm{
+    position: relative;
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .name{
+    padding: 0;
+    margin: 0px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 987px) {
+  .phonenocolm{
+    position: relative;
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .phoneno{
+    padding: 0;
+    margin: 0px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 987px) {
+  .noofpersonscolm{
+    position: relative;
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .noofpersons{
+    padding: 0;
+    margin: 0px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 987px) {
+  .booktablebtncolm{
+    position: relative;
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .booktablebtn{
+    padding: 0;
+    margin: 0px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 987px) {
+  .booktablerow{
+    width: 100%;
+    padding-left: 30px;
+  }
+
+}
+@media only screen and (max-width: 987px) {
+  .weeklyfood,  .weeklyfoodrow{
+    margin: 0;
+    padding: 20px;
+    border-radius: 4px;
+  }
+.food-item h4{
+font-weight: 500;
+padding-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 987px) {
+  .sendmsg{
+padding-bottom: 30px;
+  }
+   .submitemail{
+  margin: 0px 0px;
+  padding: 0;
+  width: 100%;
+  }
+  .sendmsginput{
+    margin: 0px 0px 25px 0px;
+    padding: 19px;
+    
+  }
+  .copyright{
+    padding-bottom: 10px;
+padding-top: 0px;
+  }
+  .social-links{
+    margin-top: -20px;
+    padding-top: 0px;
+  } 
+  .author{
+    padding-top: 0px;
+    margin-top: -20px;
+  }
+
+}
+
+@media only screen and (max-width: 987px) {
+  .menu-banner p{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+/* BREAKFAST MENU */
+@media only screen and (max-width: 987px) {
+  .braekfastmenu-row{
+    padding: 80px 95px !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+  .braekfastmenu-row{
+    padding: 80px 15px !important;
+    }
+    .owlbreakfast .item{
+      margin: 0px 20px;
+      }
+      .brs{
+        top: 59%;
+        left: 76%;
+        }
+}
+/* LUNCH MENU */
+@media only screen and (max-width: 987px) {
+  .lunchmenu-row{
+    padding: 80px 95px !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+  .lunchmenu-row{
+    padding: 80px 15px !important;
+    }
+    .owlbreakfast .item{
+      margin: 0px 20px;
+      }
+      .brs{
+        top: 59%;
+        left: 76%;
+        }
+}
+
+/* Dinner MENU */
+@media only screen and (max-width: 987px) {
+  .dinnermenu-row{
+    padding: 80px 95px !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+  .dinnermenu-row{
+    padding: 80px 15px !important;
+    }
+    .owlbreakfast .item{
+      margin: 0px 20px;
+      }
+      .brs{
+        margin-right: 19px;
+        top: 60%;
+        left: 76%;
+        }
+}
+
+/* blog page */
+
+@media only screen and (max-width: 987px) {
+  .blog-banner p{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 987px) {
+  .blogs{
+ padding: 0;
+ margin: 0;
+ margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .blogs{
+    padding: 0;
+      margin: 30px 10px 0px 10px;
+     }
+}
+
+/* CONTACT US PAGE */
+
+@media only screen and (max-width: 987px) {
+  .contactus-banner p{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+
+
+
